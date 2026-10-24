@@ -1,0 +1,32 @@
+{
+    "version": "0.4.1",
+    "description": "Local-first knowledge base for Markdown files",
+    "homepage": "https://github.com/akuchin/kknow",
+    "license": "MIT",
+    "notes": [
+        "Update kknow with 'scoop update kknow'. The update button in the app installs a second copy from the MSI package.",
+        "Thus turn off 'Settings -> General -> Update automatically' in the app.",
+        "The settings are in '%APPDATA%\\dev.kknow.desktop'. Scoop does not keep them, and 'scoop uninstall' does not remove them."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/akuchin/kknow/releases/download/v0.4.1/kknow_0.4.1_x64_en-US.msi",
+            "hash": "02772c6b182d15bf65eada4418e72dcc4abcf40fdbdfa6ad1035393845c72f90"
+        }
+    },
+    "extract_dir": "PFiles\\kknow",
+    "shortcuts": [
+        [
+            "kknow-desktop.exe",
+            "kknow"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/akuchin/kknow/releases/download/v$version/kknow_$version_x64_en-US.msi"
+            }
+        }
+    }
+}
