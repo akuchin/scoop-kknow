@@ -1,5 +1,5 @@
 {
-    "version": "0.5.0",
+    "version": "0.5.1",
     "description": "Local-first knowledge base for Markdown files",
     "homepage": "https://github.com/akuchin/kknow",
     "license": "MIT",
@@ -10,8 +10,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/akuchin/kknow/releases/download/v0.5.0/kknow_0.5.0_x64_en-US.msi",
-            "hash": "34f4852761d1b36f9c1d7f1e988871d8c53d2ce63bddea5a1e95fb40784d98fb"
+            "url": "https://github.com/akuchin/kknow/releases/download/v0.5.1/kknow_0.5.1_x64_en-US.msi",
+            "hash": "cc27e67feab50b175c39bb03dc3f54514c8082c30d79dfa3fa4cf1bb852e7724"
         }
     },
     "extract_dir": "PFiles\\kknow",
