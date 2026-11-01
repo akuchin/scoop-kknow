@@ -1,12 +1,12 @@
 {
-    "version": "0.7.2",
+    "version": "0.7.3",
     "description": "Command-line interface of kknow, a local-first knowledge base for Markdown files",
     "homepage": "https://github.com/akuchin/kknow",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/akuchin/kknow/releases/download/v0.7.2/kknow-cli-v0.7.2-x86_64-pc-windows-msvc.zip",
-            "hash": "34e5b31c2cc7bda437b54d71f76f1409c0d47956d3a4219e50dd3adadae62ada"
+            "url": "https://github.com/akuchin/kknow/releases/download/v0.7.3/kknow-cli-v0.7.3-x86_64-pc-windows-msvc.zip",
+            "hash": "e2c805ff678acd93b7202d905cf444fa5859d090d607b8cb4c100a75b46069be"
         }
     },
     "bin": "kknow.exe",
